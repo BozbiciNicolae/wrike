@@ -1,0 +1,15 @@
+[
+  {
+    "id": "2024-08-29T11:43:17.544Z",
+    "date": "2024-08-29T11:03:17.544Z",
+    "name": "Johnny Doe",
+    "email": "john.doe@example.com",
+    "description": "This important comment may be removed soon... censorship"
+  },
+  {
+    "id": "2024-08-28T10:31:17.544Z",
+    "date": "2024-08-29T05:07:17.544Z",
+    "name": "Jane Smith",
+    "description": "Plain React is great but a separate state management would be better."
+  }
+]
