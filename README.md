@@ -14,6 +14,5 @@ I stored two default comments into a json file stored locally `public/data.json`
 ### Date Parsing
 Since the comment date is usually stored as an ISO date, I took the opportunity to create a custom hook `useDateParser` that handles formating the date before rendering it to the browser.
 
-
 ## Running the project
 Do the usual `git checkout `, `npm install` and `npm run dev` to run it locally or use Stackblitz to run the repo if it's more convenient.

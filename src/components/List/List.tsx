@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Comment from "../../interfaces/Comment";
 import Item from "../Item/Item";
 import { useCommentsContext } from "../../store/context";
@@ -7,18 +6,6 @@ import "./list.css";
 
 const List = () => {
   const { state } = useCommentsContext();
-
-  const simulateLoader = () => {
-    return new Promise<void>((resolve) => {
-      setTimeout(() => {
-        resolve();
-      }, 4000)
-    });
-  }
-
-  useEffect(() => {
-    simulateLoader()
-  }, [simulateLoader]);
 
   return (
     <div className="list">
